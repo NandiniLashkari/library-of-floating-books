@@ -1,0 +1,24 @@
+# build output
+build/
+*.o
+
+# macOS
+.DS_Store
+
+# third-party 3D models (large, separate licences) - see README
+models/*.glb
+
+# local / private files
+backup_deliverable2/
+*.pages
+*.docx
+*.pdf
+step1_changes.txt
+step1_expected.png
+inspect_model
+CMakeLists.backup.txt
+external/
+screenshots/
+
+# textures extracted from a third-party model
+models/textures/gltf_embedded_*
